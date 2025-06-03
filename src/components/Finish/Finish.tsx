@@ -10,6 +10,8 @@ import FinishPay from '../FinishPay/FinishPay'
 export default function Finish() {
 
 
+    const zz=11111
+
     
     const [stage,setStage]=useState(1)
 
