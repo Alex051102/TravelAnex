@@ -1,0 +1,123 @@
+
+.modal-filters{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.4);
+    z-index: 111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    
+}
+.filters{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    height: 110vh;
+    z-index: 222;
+}
+.filters__container{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.filters__up{
+    display: grid;
+    grid-template-columns: 12fr 1fr;
+}
+.filters__offers{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filters__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.filters__list-item{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.invisible-track-container {
+    position: relative;
+ 
+    height: 3px;
+  }
+  
+  .invisible-track-thumb {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+     /* Полная прозрачность дорожки */
+    -webkit-appearance: none;
+  }
+  
+  /* Стилизация бегунков */
+  .invisible-track-thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid grey;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-top: -8px; /* Центрирование */
+  }
+  
+  .invisible-track-thumb::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4a8eff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* Полное скрытие дорожки */
+  .invisible-track-thumb::-webkit-slider-runnable-track {
+    background: grey;
+    height: 0;
+  }
+  
+  .invisible-track-thumb::-moz-range-track {
+    background: grey;
+    height: 0;
+  }
+  .active-track {
+    position: absolute;
+    height: 8px;
+    background: #463998;
+    border-radius: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+  }
+
+  .filters__time-hand{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .filters__actions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .filters__reset,.filters__choose{
+    display: flex;
+    justify-content: center;
+  }

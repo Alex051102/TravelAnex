@@ -1,0 +1,43 @@
+.hot-tours__item{
+    border-radius: 26px;
+    
+    
+}
+
+.hot-tours__item-container{
+    padding: 20px 25px 20px 10px;
+    width: 236px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+.hot-tours__item-up-container{
+    display: flex;
+    gap: 10px;
+}
+.hot-tours__item-up{
+    grid-row: 1;
+}
+.hot-tours__item-down{
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hot-tours__item-days,.hot-tours__item-price{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.hot-tours__text{
+    color: white;
+}
+.hot-tours__text--bald{
+    font-weight: bold;
+}
+.hot-tours__text--padding{
+    padding: 9px;
+}
+
+.hot-tours__show-more{
+    display: flex;
+    gap: 10px;
+}

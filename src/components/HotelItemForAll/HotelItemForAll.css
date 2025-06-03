@@ -1,0 +1,119 @@
+.hotel-all__item{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.hotel-all__item-image{
+    border-radius: 12px;
+    width: 352px;
+    height: 280px;
+}
+.hotel-all__item-main{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.hotel-all__item-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    height: 80%;
+    border-right: 1px solid grey;
+    
+   
+}
+.hotel-all__item-pluse{
+    display: flex;
+    gap: 5px;
+}
+.hotel-all__item-rate{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.hotel-all__item-rating{
+    background-color: blueviolet;
+    border-radius: 12px;
+}
+.hotel-all__item-rating-text{
+    padding: 8px;
+    color: white;
+}
+.hotel-all__item-pluses{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hotel-all__item-price{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 20%;
+   
+}
+.hotel-all__item-price-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.hotel-all__item-price-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media(width<1200px){
+    .hotel-all__item-image{
+        border-radius: 12px;
+        width: 302px;
+        height: 280px;
+    }
+    
+}
+@media(width<800px){
+    .hotel-all__item-image{
+        border-radius: 12px;
+        width: 100%;
+        height: 350px;
+    }
+    .hotel-all__item-main-container{
+       height: auto;
+        border-right: none;
+        padding-left: 20px;
+       
+    }
+    .hotel-all__item-price-button{
+        display: none;
+    }
+    .hotel-all__item-price{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hotel-all__item-main{
+        width: 100%;
+       
+    }
+    .hotel-all__item{
+        display: flex;
+       flex-direction: column;
+       gap: 10px;
+    }
+ 
+}
+
+@media(width<540px){
+    .hotel-all__item-image{
+        border-radius: 12px;
+        width: 100%;
+        height: 300px;
+    }
+    
+}

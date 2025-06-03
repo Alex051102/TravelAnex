@@ -1,0 +1,110 @@
+.modal-days{
+   
+}
+.pick-up-area__sub-people{
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 222;
+}
+.pick-up-area__sub-people-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.pick-up-area__sub-people-main{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pick-up-area__sub-people-category{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.pick-up-area__sub-people-category-name{
+    width: 120px;
+}
+.pick-up-area__sub-people-counter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pick-up-area__sub-people-button{
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 5px 10px;
+   font-size: 16px;
+   width: 30px;
+}
+.pick-up-area__sub-people-button--minus{
+    padding-bottom: 7px;
+}
+.pick-up-area__sub-people-counter-num{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(width<1200px){
+    .pick-up-area__sub-people{
+   
+     
+    }
+}
+@media(width<800px){
+    .pick-up-area__sub-people{
+       
+        top: 1020px;
+        left: 40%;
+        
+    }
+}
+@media(width<600px){
+   .modal-tourists{
+       display: flex;
+       width: 100vw;
+       height: 100vh;
+       justify-content: center;
+       background-color: rgb(0,0,0,0.4);
+       z-index: 11111;
+       position: fixed;
+       top: 0;
+       left: 0;
+   }
+   .pick-up-area__sub-people{
+   
+       position: absolute;
+       top: 80px;
+      
+       border-radius: 20px;
+       background-color: white;
+       width: 100vw;
+       height: 100vh;
+       left: 0;
+   }
+
+   
+
+   .pick-up-area__sub-people-main{
+    height: 57vh;
+   
+   }
+
+   .pick-up-area__sub-people-container{
+       
+        align-items:normal;
+    }
+    .pick-up-area__sub-people-category{
+        justify-content: center;
+    }
+   
+}

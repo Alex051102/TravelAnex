@@ -1,0 +1,195 @@
+.finish{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+.finish__container{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.finish__main{
+    display: flex;
+    gap: 40px;
+}
+.finish__progress{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 40px;
+}
+.finish__progress-text{
+   display: grid;
+   grid-template-columns: 250px 250px 250px;
+   justify-content: center;
+   
+}
+.finish__progress-text-item{
+    display: flex;
+    justify-content: center;
+}
+
+/* .main-padding{
+    padding-left: 20px;
+    padding-right: 100px;
+} */
+
+.finish__progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finish__progress-bar-circle{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.blue-bg{
+    background-color: blue;
+}
+.finish__progress-bar-circle-text{
+    padding: 5px 10px;
+    
+}
+.white-text{
+    color: white;
+}
+.finish__progress-bar-line{
+    width: 240px;
+    background-color: grey;
+    height: 2px;
+}
+
+
+.finish__card{
+   background-color: white;
+    border-radius: 15px;
+    height:550px;
+   
+}
+.finish__card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.finish__card-img-outer{
+    display: flex;
+    justify-content: center;
+}
+.finish__card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.finish__card-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.finish__card-img{
+    width: 208px;
+    height: 132px;
+    border-radius: 15px;
+}
+span{
+    font-weight: bold;
+}
+.finish__card-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid black;
+}
+.finish__card-price-text{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.finish__next{
+    display: none;
+}
+.finish__next-button{
+    background-color: #463998;
+    border-radius: 14px;
+    border-radius: none;
+}
+.finish__next-button-text{
+    padding: 10px 15px;
+    color: white;
+}
+@media(width<1150px){
+    .finish__container{
+        width: 750px;
+       
+    }
+}
+
+@media(width<800px){
+    .finish__card{
+        display: none;
+    }
+    .finish__container{
+        width: 90%;
+        
+    }
+    .finish__main{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+    }
+    .finish__next{
+        display: flex;
+    }
+    .finish__progress-text{
+       
+        grid-template-columns: 200px 200px 200px;
+       
+        
+     }
+     .finish__progress-bar-line{
+        width: 190px;
+        height: 2px;
+    }
+}
+
+@media(width<600px){
+   
+    .finish__progress-text{
+       
+        grid-template-columns: 150px 150px 150px;
+       
+        
+     }
+     .finish__progress-bar-line{
+        width: 140px;
+        height: 2px;
+    }
+    .finish__progress-text-item{
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media(width<490px){
+    .finish-dop__part-item-text,.finish-dop__part-item-price{
+        font-size: 12px;
+    }
+    .finish__progress-text{
+       
+        grid-template-columns: 110px 110px 110px;
+       
+        
+     }
+     .finish__progress-bar-line{
+        width: 100px;
+        height: 2px;
+    }
+}

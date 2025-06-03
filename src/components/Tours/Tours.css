@@ -1,0 +1,232 @@
+.tours-intro{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-rows: 1fr 1.8fr 1fr;
+}
+.tours-intro__container{
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+.tours-main{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.tours-main__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 65vw;
+    padding-top: 30px;
+}
+
+.tours-main__nav{
+    display: flex;
+    gap: 7px;
+}
+.tours-main__nav-text{
+    color: #1C1C1C;
+    font-size: 14px;
+}
+.tours-main__nav-text--grey{
+    color: #A1A1A1;
+}
+.tours-main__title{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.tours-main__title-text{
+    font-size: 44px;
+}
+.tours-main__options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.tours-main__sorted{
+    display: flex;
+    gap: 6px;
+}
+.tours-main__sorted-img{
+    width: 22px;
+    height: 22px;
+}
+.tours-main__filters{
+    display: flex;
+    justify-content: end;
+}
+.tours-main__filters-button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding:5px 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.tours-main__sort-variants{
+    position: absolute;
+    top: 150px;
+    border: 1px solid black;
+    opacity: 0;
+    z-index: -100;
+    border-radius: 12px;
+    background-color: white;
+}
+.tours-main__sort-variant{
+    border-bottom: 1px solid black;
+   
+}
+.tours-main__sort-variant:hover{
+    background-color: #efefef;
+    border-radius: 12px;
+}
+.tours-main__sort-variant--no-border{
+    border: none;
+}
+.tours-main__sort-variant-text{
+    padding: 8px 35px;
+}
+[id='sort']:checked ~ .tours-main__sort-variants{
+    top:180px;
+    opacity: 1;
+   z-index: 1;
+    transition: top 0.5s;
+}
+.tours-main__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tours-pagination{
+    display: flex;
+    justify-content: center;
+}
+.tours-pagination__container{
+    display: flex;
+    gap: 5px;
+}
+@media(width<1550px){
+    .home__intro{
+       
+        grid-template-columns: 1fr 4fr 1fr;
+        
+    }
+    .tours-main__container{
+       
+        width: 75vw;
+    }
+}
+@media(width<1350px){
+   
+    .tours-main__container{
+       
+        width: 85vw;
+    }
+}
+@media(width<1200px){
+    .home__intro{
+       
+        grid-template-columns: 1fr 9fr 1fr;
+       
+    }
+    .tours-main__container{
+       
+        width: 92vw;
+    }
+}
+
+@media(width<815px){
+    .tours-main__container{
+       
+        width: 55vw;
+    }
+    .tours-main__title-text{
+        font-size: 28px;
+        padding: 0;
+    }
+    .tours-main__title-number{
+        font-size: 12px;
+    }
+    .tours-main__title{
+        display: block;
+    }
+
+    .tours-main__options {
+        
+        grid-template-columns: 1fr 0.1fr;
+        align-items: center;
+    }
+
+    .tours-main__filters-button{
+        
+        border: none;
+        background-color: transparent;
+    }
+    
+}
+
+@media(width<800px){
+    .home__intro{
+       
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+       
+    }
+}
+@media(width<700px){
+    .tours-main__container{
+       
+        width: 70vw;
+    }
+}
+@media(width<600px){
+    .home__intro{
+        grid-template-rows: 1fr 4fr 1fr;
+       
+    }
+    .tours-main__container{
+       
+        width: 85vw;
+    }
+    
+}
+@media(width<450px){
+    .home__intro{
+        grid-template-rows: 1fr 4fr 1fr;
+       
+    }
+    .tours-main__container{
+       
+        width: 90vw;
+    }
+    .tours-main__options {
+        
+        grid-template-columns: 1fr 0.1fr;
+        align-items: center;
+    }
+    .tours-main__sorted-text{
+        font-size: 14px;
+    }
+    .tours-main__sorted-img {
+        width: 18px;
+        height: 18px;
+    }
+    .tours-main__filters-button {
+        padding: 2px;
+    }
+    
+}
+@media(width<400px){
+   
+    .tours-main__title-text{
+        font-size: 24px;
+        
+    }
+   
+}

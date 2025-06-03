@@ -1,0 +1,89 @@
+.scroll-bar{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.scroll-bar__section{
+    background-color: #fff;
+    position: relative;
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+   
+  }
+  
+  .scroll-bar__section::-webkit-scrollbar {
+    display: none;
+  }
+  
+.scroll-bar__arrow{
+
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Плавность */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    .scroll-bar__arrow-left{
+          position: absolute;
+          top: 50%;
+          left: 200px,;
+          transform: translateY(-50%);
+          z-index: 1;
+          background-color: #fff;
+          border: none;
+          padding: 10px;
+          border-radius: 50%;
+          cursor: pointer;
+    }
+    .scroll-bar__arrow-right{
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+          z-index: 1;
+          background: #fff;
+          border:none;
+          padding: 10px;
+          border-radius: 50%;
+          cursor: pointer;
+}
+.reviews__items{
+    
+    position: relative;
+    
+   
+}
+.reviews__items-container{
+    display: flex;
+    gap: 20px;
+}
+.hotels__slider-container{
+    display: flex;
+    gap: 20px;
+
+}
+@media(width<800px){
+    .scroll-bar{
+        padding-left: 50px;
+    }
+    .scroll-bar__arrow{
+        display: none;
+    }
+    
+      
+}
+@media(width<600px){
+    .scroll-bar{
+        padding-left: 10px;
+    }
+   
+      
+}

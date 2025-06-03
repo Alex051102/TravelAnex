@@ -1,0 +1,143 @@
+.pick-up-area{
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+}
+.pick-up-area__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+    padding: 15px 15px;
+}
+.pick-up-area__hotel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pick-up-area__item{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid grey;
+    
+}
+
+.pick-up-area__item-container{
+    padding-left:16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pick-up-area__send{
+    border-left: none;
+}
+.pick-up-area__item-no-choice{
+    color: #A1A1A1;
+}
+.pick-up-area__item-choice-title{
+    font-size: 11px;
+    color: #A1A1A1;
+}
+
+input[type="checkbox"]{
+  accent-color: #C56FFF;
+  width: 20px;
+  height: 20px;
+}
+/* .pick-up-area__sub-country{
+    display: none;
+    position: absolute;
+    top: 90px;
+    
+   border-radius: 20px;
+    background-color: white;
+}
+
+
+
+[id='country']:checked ~ .pick-up-area__sub-country{
+    top:90px;
+    opacity: 1;
+    
+    transition: top 0.5s;
+}
+.pick-up-area__sub-country--open{
+    display: flex;
+}
+
+ */
+
+
+
+
+.error{
+    height: 26px;
+    font-size: 11px;
+    color: red;
+    text-align: center;
+}
+
+
+@media(width<800px){
+    
+    
+    
+    .pick-up-area__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding: 15px 40px;
+       
+    }
+    .pick-up-area__item{
+      
+        border-bottom: 1px solid grey;
+        border-left: none;
+      
+        
+    }
+    .pick-up-area__send{
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .pick-up-area__number,.pick-up-area__time{
+        border: none;
+        
+    }
+    .pick-up-area__number-container{
+        border-left: 1px solid grey;
+    }
+    .pick-up-area__hotel{
+        border-bottom: 1px solid grey;
+    }
+    .pick-up-area__number-no-choice{
+        padding-left: 5px;
+    }
+    .pick-up-area__item-container{
+        padding:14px 0;
+    }
+    
+
+   /*  .removeDisplay{
+       display: none;
+    } */
+   /*  .pick-up-area__sub-country,.pick-up-area__sub-calendar,.pick-up-area__sub-how-days,.pick-up-area__sub-people{
+        top: 110%;
+        left:15%;
+        
+    } */
+   /*  .pick-up-area__sub-country{
+        top: 105%;
+       
+    } */
+    .pick-up-area__sub-calendar{
+        left: 6%;
+    }
+  
+}
+
+@media(width<700px){
+    .removeDisplay{
+        background-color: white;
+        z-index: -22;
+    }
+}

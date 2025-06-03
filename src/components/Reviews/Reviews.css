@@ -1,0 +1,41 @@
+
+.reviews__up{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.reviews__up-container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 100px 0;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.reviews__cursive{
+    width: 268px;
+    height: 100px;
+}
+.reviews__title{
+    font-size: 40px;
+
+}
+.reviews__subtitle{
+    font-size: 19px;
+}
+
+@media(width<820px){
+    .reviews__cursive{
+        width: 160px;
+        height: 58px;
+       
+    }
+    .reviews__title{
+        font-size: 28px;
+
+    }
+    .reviews__subtitle{
+        font-size: 14px;
+        
+    }
+}

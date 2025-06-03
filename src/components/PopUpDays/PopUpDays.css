@@ -1,0 +1,76 @@
+.modal-days{
+    z-index: 0;
+}
+
+
+.pick-up-area__sub-how-days{
+   
+     position: absolute;
+     left: 45%;
+     top: 850px;
+     background-color: white;
+     border-radius: 12px;
+     z-index: 222;
+ }
+ .pick-up-area__sub-how-days-inputs-container{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     padding: 40px 10px;
+     padding-bottom: 20px;
+    
+     align-items: center;
+ }
+ .pick-up-area__sub-how-days-input{
+     width: 100px;
+     height: 20px;
+ }
+ 
+ @media(width<1200px){
+    .pick-up-area__sub-how-days{
+   
+       
+    }
+}
+@media(width<800px){
+    .pick-up-area__sub-how-days{
+   
+        
+        left: 20%;
+        top: 970px;
+        background-color: white;
+        border-radius: 12px;
+        z-index: 222;
+    }
+}
+@media(width<600px){
+    .modal-days{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(0,0,0,0.4);
+        z-index: 11111;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .pick-up-area__sub-how-days{
+    
+        position: absolute;
+        top: 80px;
+       
+        border-radius: 20px;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+    }
+
+    .pick-up-area__sub-how-days-inputs-container{
+        
+        padding-bottom: 60vh;
+       
+    }
+    
+}

@@ -1,0 +1,86 @@
+
+.pop-up-room{
+    
+    position: absolute;
+    top: 420px;
+    left: 60%;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 222;
+    
+   
+   
+}
+.pop-up-room__container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pop-up-room__main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pop-up-room__main-item{
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   gap: 20px;
+}
+.pop-up-room__main-price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pop-up-room__main-item-radio{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.pop-up-room__main-item-radio-button{
+    width: 25px;
+    height: 25px;
+}
+.pop-up-room__choose{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.pop-up-room__choose-button{
+    padding-top: 15px;
+}
+
+@media(width<800px){
+    .pick-up-area__sub-up{
+        display: grid;
+    }
+    .modal-room{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(0,0,0,0.4);
+        z-index: 111;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .pop-up-room{
+    
+        position: absolute;
+        top: 80px;
+        
+        border-radius: 20px;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+    }
+    .pop-up-room__main{
+        height: 65vh;
+        justify-content: center;
+        gap: 12vw;
+    }
+    
+}

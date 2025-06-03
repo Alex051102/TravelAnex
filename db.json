@@ -1,0 +1,2059 @@
+{
+  "hotels": [
+    {
+      "id":0,
+      "name": "Sunset Resort",
+      "country": "Египет",
+      "image": "/src/assets/images/egypt.jpg",
+      "flyOut": "Москва",
+      "rating": 9.1,
+      "tours": [
+        {
+          "id":101,
+          "name": "Sunset Resort",
+          "country": "Египет",
+          "image": "/src/assets/images/egypt.jpg",
+          "flyOut": "Москва",
+          "rating": 9.1,
+          "basePrice": 95000,
+          "time": "5 июня - 20 июня 2025",
+          "timeNumber":"05.06.25-20.06.25",
+          "startTime":1749070800,
+          "days":15,
+
+          "reasonWhy": "Идеальный выбор для семейного отдыха! Насладитесь кристально чистым морем, аквапарком прямо на территории и профессиональной анимацией для детей всех возрастов...",
+          "fastPluses": ["аквапарк", "детский клуб", "100 м до пляжа", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Family Room",
+              "plusesRoom": ["максимум 4 гостя", "32 м²", "кондиционер", "детская кроватка"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Deluxe Suite",
+              "plusesRoom": ["панорамный вид", "джакузи", "VIP-обслуживание"],
+              "addPrice": 28000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["500 м до центра Хургады"],
+            "communication": ["такси у входа"],
+            "distanceToAirPort": ["10 км от аэропорта"]
+          },
+          "beaches": ["песчаный пляж", "зонтики и шезлонги", "бар на берегу"],
+          "about": {
+            "inGeneral": ["5 звезд", "построен в 2020", "3 бассейна"],
+            "sportAndEntertaiment": ["дайвинг-центр", "вечерние шоу"],
+            "swimmingPool": ["водные горки", "детский бассейн"],
+            "spa": ["массаж", "сауна"],
+            "services": ["Wi-Fi", "обмен валюты"],
+            "contacts": ["+20123456789", "www.sunset-resort.com"]
+          },
+          "forKids": ["детский буфет", "игровая комната"],
+          "food": {
+            "places": ["3 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "напитки 24/7"],
+              "addPrice": 18000
+            }
+          }
+        },
+        {
+          "id":102,
+          "name": "Sunset Resort",
+      "country": "Египет",
+      "image": "/src/assets/images/egypt.jpg",
+      "flyOut": "Москва",
+      "rating": 9.1,
+          "basePrice": 110000,
+          "time": "16 октября - 30 октября 2025",
+          "timeNumber":"16.10.25-30.10.25",
+          "startTime":1760562000,
+          "days":14,
+          "reasonWhy": "Романтический отдых для пар! Приватные ужины на берегу, спа-программы и роскошные номера с видом на закат...",
+          "fastPluses": ["спа-центр", "приватный пляж", "свадебные пакеты"],
+          "availableRooms": [
+            {
+              "nameRoom": "Honeymoon Suite",
+              "plusesRoom": ["кровать king-size", "ванны с гидромассажем", "бесплатный шампанское"],
+              "addPrice": 35000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["15 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["8 км"]
+          },
+          "beaches": ["понтон для купания", "VIP-зона"],
+          "about": {
+            "inGeneral": ["бутик-отель", "10 номеров"],
+            "sportAndEntertaiment": ["катамараны", "йога"],
+            "swimmingPool": ["беседка с подогревом"],
+            "spa": ["парная", "аюрведа"],
+            "services": ["персональный батлер"],
+            "contacts": ["+20987654321", "www.sunset-romance.com"]
+          },
+          "forKids": ["дети старше 12 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["меню от шефа"],
+              "addPrice": 25000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name": "Azure Bay",
+      "country": "Испания",
+      
+      "image": "/src/assets/images/spain2.jpg",
+      "flyOut": "Санкт-Петербург",
+      "rating": 8.7,
+      "tours": [
+        {
+          "id":103,
+          "name": "Azure Bay",
+          "country": "Испания",
+      
+          "image": "/src/assets/images/spain2.jpg",
+          "flyOut": "Санкт-Петербург",
+          "rating": 8.7,  
+          "basePrice": 120000,
+          "time": "1 июня - 26 июня 2025",
+          "timeNumber":"01.06.25-26.06.25",
+          "startTime":1748725200,
+          "days":25,
+          "reasonWhy": "Откройте Испанию! Удобное расположение для экскурсий в Барселону, пляж с голубым флагом и аутентичная кухня...",
+          "fastPluses": ["до моря 50 м", "бесплатный Wi-Fi", "парковка"],
+          "availableRooms": [
+            {
+              "nameRoom": "Standard",
+              "plusesRoom": ["20 м²", "балкон", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Ocean View",
+              "plusesRoom": ["вид на море", "кофемашина"],
+              "addPrice": 15000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["1 км до центра Салоу"],
+            "communication": ["автобус до Барселоны"],
+            "distanceToAirPort": ["90 км"]
+          },
+          "beaches": ["песчано-галечный", "спасатели", "прокат лежаков"],
+          "about": {
+            "inGeneral": ["4 звезды", "150 номеров", "реновация 2022"],
+            "sportAndEntertaiment": ["тренажерный зал", "вечерний кинотеатр"],
+            "swimmingPool": ["2 бассейна", "детский бассейн"],
+            "spa": ["массаж", "гидротерапия"],
+            "services": ["прокат авто", "экскурсии"],
+            "contacts": ["+34678901234", "www.azurebay.es"]
+          },
+          "forKids": ["детская анимация", "мини-гольф"],
+          "food": {
+            "places": ["основной ресторан", "снэк-бар"],
+            "baseFoodCategory": {
+              "pluses": ["завтрак + ужин"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "испанская кухня"],
+              "addPrice": 12000
+            }
+          }
+        },
+        {
+          "id":104,
+          "name": "Azure Bay",
+          "country": "Испания",
+      
+          "image": "/src/assets/images/spain2.jpg",
+          "flyOut": "Санкт-Петербург",
+          "rating": 8.7,  
+          "basePrice": 135000,
+          "time": "12 июля - 16 июля 2025",
+          "timeNumber":"12.07.25-16.07.25",
+          "startTime":1752267600,
+          "days":4,
+          "reasonWhy": "Гастрономическое путешествие! Дегустация вин Каталонии, мастер-классы от шеф-повара и ужины в Michelin-ресторанах...",
+          "fastPluses": ["винный погреб", "терраса с видом", "экскурсии на винодельни"],
+          "availableRooms": [
+            {
+              "nameRoom": "Gourmet Suite",
+              "plusesRoom": ["кухонная зона", "обеденный набор", "винный холодильник"],
+              "addPrice": 40000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["20 км до винодельческого региона"],
+            "communication": ["аренда авто"],
+            "distanceToAirPort": ["100 км"]
+          },
+          "beaches": ["приватный пляж", "ресторан на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 номеров"],
+            "sportAndEntertaiment": ["велосипеды", "дегустации"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["винотерапия", "сауна"],
+            "services": ["персональный гид"],
+            "contacts": ["+34123456789", "www.azuregourmet.es"]
+          },
+          "forKids": ["дети от 16 лет"],
+          "food": {
+            "places": ["3 ресторана", "бар с сомелье"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные сеты"],
+              "addPrice": 28000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name": "Tropical Paradise",
+      "country": "Таиланд",
+     
+      "image": "/src/assets/images/tailand.jpg",
+      "flyOut": "Новосибирск",
+      "rating": 8.9,
+      "tours": [
+        {
+          "id":105,
+          "name": "Tropical Paradise",
+      "country": "Таиланд",
+     
+      "image": "/src/assets/images/tailand.jpg",
+      "flyOut": "Новосибирск",
+      "rating": 8.9,
+          "basePrice": 150000,
+          "time": "5 августа - 22 августа 2025",
+          "timeNumber":"05.08.25-22.08.25",
+          "startTime":1754341200,
+          "days":17,
+          "reasonWhy": "Экзотика Азии! Белоснежные пляжи Пхукета, тайский массаж и незабываемые закаты...",
+          "fastPluses": ["бесплатный трансфер", "русскоговорящий персонал", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Deluxe Garden View",
+              "plusesRoom": ["35 м²", "балкон", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Pool Villa",
+              "plusesRoom": ["частный бассейн", "зона отдыха", "бесплатный мини-бар"],
+              "addPrice": 50000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["5 км до Патонга"],
+            "communication": ["тук-тук у отеля"],
+            "distanceToAirPort": ["30 км"]
+          },
+          "beaches": ["песчаный", "зонтики", "бар на пляже"],
+          "about": {
+            "inGeneral": ["5 звезд", "100 вилл", "построен в 2019"],
+            "sportAndEntertaiment": ["дайвинг", "йога"],
+            "swimmingPool": ["беседка", "детский бассейн"],
+            "spa": ["тайский массаж", "обертывания"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+66123456789", "www.tropicalparadise.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["4 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки","обед"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "местные напитки"],
+              "addPrice": 22000
+            }
+          }
+        },
+        {
+          "id":106,
+          "name": "Tropical Paradise",
+      "country": "Таиланд",
+     
+      "image": "/src/assets/images/tailand.jpg",
+      "flyOut": "Новосибирск",
+      "rating": 8.9,
+          "basePrice": 170000,
+          "time": "10 сентября - 25 сентября 2025",
+          "timeNumber":"10.09.25-25.09.25",
+          "startTime":1757451600,
+          "days":15,
+          "reasonWhy": "Спа-путешествие! Релакс в тропическом саду, процедуры аюрведы и виллы с приватными бассейнами...",
+          "fastPluses": ["спа-центр", "йога на закате", "романтические ужины"],
+          "availableRooms": [
+            {
+              "nameRoom": "Spa Villa",
+              "plusesRoom": ["отдельный сад", "джакузи", "спа-наборы"],
+              "addPrice": 60000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["10 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["35 км"]
+          },
+          "beaches": ["приватный пляж", "массаж на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 вилл"],
+            "sportAndEntertaiment": ["медитация", "велосипеды"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["аюрведа", "рефлексология"],
+            "services": ["персональный батлер"],
+            "contacts": ["+66987654321", "www.tropicalspa.com"]
+          },
+          "forKids": ["дети старше 14 лет"],
+          "food": {
+            "places": ["ресторан здорового питания"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["органические продукты"],
+              "addPrice": 30000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name": "Alpine Dreams",
+      "country": "Австрия",
+      
+      "image": "/src/assets/images/austria.jpg",
+      "flyOut": "Казань",
+      "rating": 8.8,
+      "tours": [
+        {
+          "id":107,
+          "name": "Alpine Dreams",
+          "country": "Австрия",
+          
+          "image": "/src/assets/images/austria.jpg",
+          "flyOut": "Казань",
+          "rating": 8.8,
+          "basePrice": 140000,
+          "time": "12 мая - 26 мая 2025",
+          "timeNumber":"12.05.25-26.05.25",
+          "startTime":1746997200	,
+          "days":14,
+          "reasonWhy": "Зимняя сказка в Альпах! Проживание в шале с камином, прямой доступ к трассам и апред-ски бар...",
+          "fastPluses": ["ски-пасс включен", "прокат снаряжения", "сауна"],
+          "availableRooms": [
+            {
+              "nameRoom": "Mountain View",
+              "plusesRoom": ["балкон с видом", "камин", "терраса"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Premium Chalet",
+              "plusesRoom": ["частный джакузи", "кухня", "бесплатный шампанское"],
+              "addPrice": 45000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["500 м до подъемника"],
+            "communication": ["шаттл до трасс"],
+            "distanceToAirPort": ["120 км"]
+          },
+          "beaches": ["снежный пляж", "прогулки на снегоходах"],
+          "about": {
+            "inGeneral": ["4 звезды", "30 номеров", "реновация 2023"],
+            "sportAndEntertaiment": ["лыжи", "каток"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["сауна", "массаж"],
+            "services": ["прокат снаряжения", "экскурсии"],
+            "contacts": ["+43123456789", "www.alpinedreams.at"]
+          },
+          "forKids": ["детская горка", "анимация"],
+          "food": {
+            "places": ["ресторан альпийской кухни", "бар у камина"],
+            "baseFoodCategory": {
+              "pluses": ["завтрак","обед"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "горячие напитки"],
+              "addPrice": 18000
+            }
+          }
+        },
+        {
+          "id":108,
+          "name": "Alpine Dreams",
+          "country": "Австрия",
+          
+          "image": "/src/assets/images/austria.jpg",
+          "flyOut": "Казань",
+          "rating": 8.8,
+          "basePrice": 160000,
+          "time": "3 июня - 28 июня 2025",
+          "timeNumber":"03.06.25-28.06.25",
+          "startTime":1748898000,
+          "days":25,
+          "reasonWhy": "Романтический горный отдых! Приватные ужины при свечах, спа-программы и номера с панорамным видом...",
+          "fastPluses": ["приватный трансфер", "цветы в номере", "фотосессия"],
+          "availableRooms": [
+            {
+              "nameRoom": "Romance Suite",
+              "plusesRoom": ["кровать с балдахином", "ванны с видом", "бесплатный прокат снаряжения"],
+              "addPrice": 35000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["1 км до центра"],
+            "communication": ["такси"],
+            "distanceToAirPort": ["110 км"]
+          },
+          "beaches": ["прогулки на санях", "прокат лыж"],
+          "about": {
+            "inGeneral": ["бутик-отель", "10 номеров"],
+            "sportAndEntertaiment": ["катание на снегоходах", "ночное катание"],
+            "swimmingPool": ["джакузи на улице"],
+            "spa": ["парная", "массаж"],
+            "services": ["персональный гид"],
+            "contacts": ["+43987654321", "www.alpineromance.at"]
+          },
+          "forKids": ["дети от 12 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные ужины"],
+              "addPrice": 25000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name": "Safari Lodge",
+      "country": "Кения",
+      
+      "image": "/src/assets/images/kenia2.jpg",
+      "flyOut": "Екатеринбург",
+      "rating": 9.3,
+      "tours": [
+        {
+          "id":109,
+          "name": "Safari Lodge",
+      "country": "Кения",
+      
+      "image": "src/assets/images/kenia2.jpg",
+      "flyOut": "Екатеринбург",
+      "rating": 9.3,
+          "basePrice": 200000,
+          "time": "8 апреля - 17 апреля 2025",
+          "timeNumber":"08.04.25-17.04.25",
+          "startTime":1744059600,
+          "days":9,
+          "reasonWhy": "Незабываемый сафари! Наблюдение за дикой природой, проживание в люксовых палатках и африканские закаты...",
+          "fastPluses": ["русскоговорящий гид", "проживание в палатках", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Safari Tent",
+              "plusesRoom": ["кровать king-size", "веранда", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Premium Tent",
+              "plusesRoom": ["частный бассейн", "джакузи", "бесплатный мини-бар"],
+              "addPrice": 30000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["30 км до заповедника Масаи-Мара"],
+            "communication": ["джип-сафари"],
+            "distanceToAirPort": ["200 км"]
+          },
+          "beaches": ["река", "прогулки на лодке"],
+          "about": {
+            "inGeneral": ["5 звезд", "20 палаток", "построен в 2020"],
+            "sportAndEntertaiment": ["сафари", "фотосафари"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["массаж", "африканские процедуры"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+254123456789", "www.safarilodge.com"]
+          },
+          "forKids": ["детский сафари", "анимация"],
+          "food": {
+            "places": ["ресторан африканской кухни", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "местные напитки"],
+              "addPrice": 25000
+            }
+          }
+        },
+        {
+          "id":110,
+          "name": "Safari Lodge",
+      "country": "Кения",
+      
+      "image": "/src/assets/images/kenia2.jpg",
+      "flyOut": "Екатеринбург",
+      "rating": 9.3,
+          "basePrice": 220000,
+          "time": "8 июня - 21 июня 2025",
+          "timeNumber":"08.06.25-21.06.25",
+          "startTime":1749330000,
+          "days":13,
+          "reasonWhy": "Премиальный сафари! Приватные туры, вертолетные экскурсии и номера с панорамным видом на саванну...",
+          "fastPluses": ["вертолетный тур", "фотограф-профессионал", "шампанское на закате"],
+          "availableRooms": [
+            {
+              "nameRoom": "VIP Tent",
+              "plusesRoom": ["приватная терраса", "джакузи", "персональный гид"],
+              "addPrice": 50000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["50 км до заповедника"],
+            "communication": ["приватный джип"],
+            "distanceToAirPort": ["180 км"]
+          },
+          "beaches": ["прогулки на слонах", "прокат квадроциклов"],
+          "about": {
+            "inGeneral": ["бутик-отель", "5 палаток"],
+            "sportAndEntertaiment": ["ночное сафари", "пешеходные туры"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["африканский массаж", "обертывания"],
+            "services": ["персональный батлер"],
+            "contacts": ["+254987654321", "www.vipsafarilodge.com"]
+          },
+          "forKids": ["дети от 10 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные ужины"],
+              "addPrice": 40000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name": "Pacific Pearl",
+      "country": "США",
+     
+      "image": "/src/assets/images/usa.jpg",
+      "flyOut": "Краснодар",
+      "rating": 8.6,
+      "tours": [
+        
+        {
+          "id":111,
+          "name": "Pacific Pearl",
+          "country": "США",
+     
+          "image": "/src/assets/images/usa.jpg",
+          "flyOut": "Краснодар",
+          "rating": 8.6,
+          "basePrice": 180000,
+          "time": "17 ноября - 31 ноября 2025",
+          "timeNumber":"17.11.25-31.11.25",
+          "startTime":1763326800,
+          "days":14,
+          "reasonWhy": "Калифорнийские мечты! Пляж с серфингом, бассейны с подогревом и стильные номера в духе 50-х...",
+          "fastPluses": ["до моря 100 м", "русскоговорящий персонал", "парковка"],
+          "availableRooms": [
+            {
+              "nameRoom": "Retro Room",
+              "plusesRoom": ["25 м²", "ретро-интерьер", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Ocean Suite",
+              "plusesRoom": ["панорамный вид", "кухня", "джакузи"],
+              "addPrice": 25000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["2 км до Санта-Моники"],
+            "communication": ["метро"],
+            "distanceToAirPort": ["15 км"]
+          },
+          "beaches": ["песчаный", "прокат серфов", "бар на пляже"],
+          "about": {
+            "inGeneral": ["4 звезды", "120 номеров", "реновация 2021"],
+            "sportAndEntertaiment": ["серфинг", "вечеринки"],
+            "swimmingPool": ["2 бассейна", "детский бассейн"],
+            "spa": ["массаж", "сауна"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+13101234567", "www.pacificpearl.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["3 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "американская кухня"],
+              "addPrice": 20000
+            }
+          }
+        },
+        {
+          "id":112,
+          "name": "Pacific Pearl",
+      "country": "США",
+     
+      "image": "/src/assets/images/usa.jpg",
+      "flyOut": "Краснодар",
+      "rating": 8.6,
+          "basePrice": 200000,
+          "time": "2 июня - 7 июня 2025",
+          "timeNumber":"02.06.25-07.06.25",
+          "startTime":1748811600,
+          "days":5,
+          "reasonWhy": "Гастрономическое путешествие! Дегустация вин Калифорнии, мастер-классы от шеф-повара и ужины в Michelin-ресторанах...",
+          "fastPluses": ["винный погреб", "терраса с видом", "экскурсии на винодельни"],
+          "availableRooms": [
+            {
+              "nameRoom": "Gourmet Suite",
+              "plusesRoom": ["кухонная зона", "обеденный набор", "винный холодильник"],
+              "addPrice": 40000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["30 км до винодельческого региона"],
+            "communication": ["аренда авто"],
+            "distanceToAirPort": ["20 км"]
+          },
+          "beaches": ["приватный пляж", "ресторан на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 номеров"],
+            "sportAndEntertaiment": ["велосипеды", "дегустации"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["винотерапия", "сауна"],
+            "services": ["персональный гид"],
+            "contacts": ["+13109876543", "www.pacificgourmet.com"]
+          },
+          "forKids": ["дети от 16 лет"],
+          "food": {
+            "places": ["3 ресторана", "бар с сомелье"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные сеты"],
+              "addPrice": 28000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name": "Bali Heritage",
+      "country": "Индонезия",
+     
+      "image": "/src/assets/images/indonesia3.jpg",
+      "flyOut": "Ростов-на-Дону",
+      "rating": 8.9,
+      "tours": [
+        {
+          "id":113,
+          "name": "Bali Heritage",
+      "country": "Индонезия",
+     
+      "image": "/src/assets/images/indonesia3.jpg",
+      "flyOut": "Ростов-на-Дону",
+      "rating": 8.9,
+          "basePrice": 160000,
+          "time": "12 декабря - 25 декабря 2025",
+          "timeNumber":"12.12.25-25.12.25",
+          "startTime":1765486800,
+          "days":13,
+          "reasonWhy": "Балийская атмосфера! Виллы с бассейнами, традиционные спа-процедуры и белоснежные пляжи...",
+          "fastPluses": ["бесплатный трансфер", "русскоговорящий персонал", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Deluxe Villa",
+              "plusesRoom": ["40 м²", "частный бассейн", "балкон"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Royal Villa",
+              "plusesRoom": ["панорамный вид", "джакузи", "бесплатный мини-бар"],
+              "addPrice": 35000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["5 км до Семиньяка"],
+            "communication": ["такси"],
+            "distanceToAirPort": ["10 км"]
+          },
+          "beaches": ["песчаный", "зонтики", "бар на пляже"],
+          "about": {
+            "inGeneral": ["5 звезд", "50 вилл", "построен в 2018"],
+            "sportAndEntertaiment": ["йога", "дайвинг"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["баллийский массаж", "обертывания"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+62123456789", "www.baliheritage.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["4 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-x разовое питание", "местные напитки"],
+              "addPrice": 22000
+            }
+          }
+        },
+        {
+          "id":114,
+          "name": "Bali Heritage",
+      "country": "Индонезия",
+     
+      "image": "/src/assets/images/indonesia3.jpg",
+      "flyOut": "Ростов-на-Дону",
+      "rating": 8.9,
+          "basePrice": 180000,
+          "time": "1 июня - 30 июня 2025",
+          "timeNumber":"01.06.25-30.06.25",
+          "startTime":1748725200,
+          "days":29,
+          "reasonWhy": "Спа-путешествие! Релакс в тропическом саду, процедуры аюрведы и виллы с приватными бассейнами...",
+          "fastPluses": ["спа-центр", "йога на закате", "романтические ужины"],
+          "availableRooms": [
+            {
+              "nameRoom": "Spa Villa",
+              "plusesRoom": ["отдельный сад", "джакузи", "спа-наборы"],
+              "addPrice": 50000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["10 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["15 км"]
+          },
+          "beaches": ["приватный пляж", "массаж на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 вилл"],
+            "sportAndEntertaiment": ["медитация", "велосипеды"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["аюрведа", "рефлексология"],
+            "services": ["персональный батлер"],
+            "contacts": ["+62987654321", "www.balispa.com"]
+          },
+          "forKids": ["дети старше 14 лет"],
+          "food": {
+            "places": ["ресторан здорового питания"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["2-х разовое питание"],
+              "addPrice": 30000
+            }
+          }
+        }
+      ]
+    },
+
+    
+      {
+        "id": 7,
+        "name": "Coral Paradise",
+        "country": "Турция",
+        "image": "/src/assets/images/turkey.jpg",
+        "flyOut": "Санкт-Петербург",
+        "rating": 8.7,
+        "tours": [
+          {
+            "id": 115,
+            "name": "Coral Paradise",
+            "country": "Турция",
+            "image": "/src/assets/images/turkey.jpg",
+            "flyOut": "Санкт-Петербург",
+            "rating": 8.7,
+            "basePrice": 78000,
+            "time": "12 июля - 26 июля 2025",
+            "timeNumber": "12.07.25-26.07.25",
+            "startTime": 1752364800,
+            "days": 14,
+            "reasonWhy": "Отличный выбор для молодежного отдыха! Анимация 24/7, вечеринки у бассейна и близость к ночным клубам.",
+            "fastPluses": ["ультра все включено", "дискотека", "аквапарк", "200 м до пляжа"],
+            "availableRooms": [
+              {
+                "nameRoom": "Standard Room",
+                "plusesRoom": ["2 односпальные кровати", "25 м²", "кондиционер", "балкон"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Bungalow with Pool Access",
+                "plusesRoom": ["выход к бассейну", "терраса", "мини-бар"],
+                "addPrice": 15000
+              }
+            ],
+            "geoPosition": {
+              "near": ["300 м до центра Сиде"],
+              "communication": ["автобусная остановка"],
+              "distanceToAirPort": ["45 км от аэропорта Анталии"]
+            },
+            "beaches": ["галечный пляж", "шезлонги", "водные развлечения"],
+            "about": {
+              "inGeneral": ["4 звезды", "построен в 2018", "2 бассейна"],
+              "sportAndEntertaiment": ["аэробика", "настольный теннис"],
+              "swimmingPool": ["горка", "бар у бассейна"],
+              "spa": ["турецкая баня"],
+              "services": ["Wi-Fi", "прокат велосипедов"],
+              "contacts": ["+902123456789", "www.coralparadise.com"]
+            },
+            "forKids": ["мини-клуб"],
+            "food": {
+              "places": ["главный ресторан", "снек-бар"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["алкогольные напитки", "поздний завтрак"],
+                "addPrice": 12000
+              }
+            }
+          },
+          {
+            "id": 116,
+            "name": "Coral Paradise",
+            "country": "Турция",
+            "image": "/src/assets/images/turkey.jpg",
+            "flyOut": "Санкт-Петербург",
+            "rating": 8.7,
+            "basePrice": 92000,
+            "time": "1 сентября - 15 сентября 2025",
+            "timeNumber": "01.09.25-15.09.25",
+            "startTime": 1756684800,
+            "days": 14,
+            "reasonWhy": "Тихий отдых в бархатный сезон с теплым морем и без толп туристов. Идеально для тех, кто ценит комфорт.",
+            "fastPluses": ["тихий район", "SPA-центр", "все включено"],
+            "availableRooms": [
+              {
+                "nameRoom": "Superior Room",
+                "plusesRoom": ["вид на море", "чайник", "халат и тапочки"],
+                "addPrice": 8000
+              },
+              {
+                "nameRoom": "Family Suite",
+                "plusesRoom": ["2 комнаты", "диван", "микроволновка"],
+                "addPrice": 22000
+              }
+            ],
+            "geoPosition": {
+              "near": ["1 км до старого города"],
+              "communication": ["аренда авто"],
+              "distanceToAirPort": ["40 км"]
+            },
+            "beaches": ["лежаки с подушками", "полотенца"],
+            "about": {
+              "inGeneral": ["зона только для взрослых в сентябре"],
+              "sportAndEntertaiment": ["йога на пляже", "бильярд"],
+              "swimmingPool": ["подогрев в сентябре"],
+              "spa": ["массаж горячими камнями"],
+              "services": ["доставка еды в номер"],
+              "contacts": ["+902198765432", "www.coralparadise-autumn.com"]
+            },
+            "forKids": ["детская площадка (только летом)"],
+            "food": {
+              "places": ["a la carte ресторан"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["премиум алкоголь", "свежевыжатые соки"],
+                "addPrice": 18000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Alpine Grand",
+        "country": "Австрия",
+        "image": "/src/assets/images/austria.jpg",
+        "flyOut": "Москва",
+        "rating": 9.3,
+        "tours": [
+          {
+            "id": 117,
+            "name": "Alpine Grand",
+            "country": "Австрия",
+            "image": "/src/assets/images/austria.jpg",
+            "flyOut": "Москва",
+            "rating": 9.3,
+            "basePrice": 145000,
+            "time": "15 декабря - 22 декабря 2025",
+            "timeNumber": "15.12.25-22.12.25",
+            "startTime": 1765756800,
+            "days": 7,
+            "reasonWhy": "Роскошный горнолыжный отдых в самом сердце Альп! Прямой доступ к трассам и традиционный австрийский уют.",
+            "fastPluses": ["ski-in/ski-out", "спа-центр", "камин в лобби"],
+            "availableRooms": [
+              {
+                "nameRoom": "Classic Double",
+                "plusesRoom": ["вид на горы", "ванная с подогревом", "шкаф для лыж"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Penthouse",
+                "plusesRoom": ["панорамные окна", "личный камин", "джакузи"],
+                "addPrice": 45000
+              }
+            ],
+            "geoPosition": {
+              "near": ["50 м до подъемника"],
+              "communication": ["ski-pass продажа в отеле"],
+              "distanceToAirPort": ["80 км от Инсбрука"]
+            },
+            "beaches": ["термальный бассейн на улице"],
+            "about": {
+              "inGeneral": ["5 звезд", "историческое здание"],
+              "sportAndEntertaiment": ["лыжная школа", "коньки"],
+              "swimmingPool": ["с видом на склоны"],
+              "spa": ["альпийские травы", "соляная комната"],
+              "services": ["консьерж", "гардероб"],
+              "contacts": ["+4312345678", "www.alpinegrand.com"]
+            },
+            "forKids": ["детский клуб", "горка"],
+            "food": {
+              "places": ["ресторан с тирольской кухней"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["шведский стол", "горячие напитки круглосуточно"],
+                "addPrice": 25000
+              }
+            }
+          },
+          {
+            "id": 118,
+            "name": "Alpine Grand",
+            "country": "Австрия",
+            "image": "/src/assets/images/austria.jpg",
+            "flyOut": "Москва",
+            "rating": 9.3,
+            "basePrice": 110000,
+            "time": "10 июня - 20 июня 2025",
+            "timeNumber": "10.06.25-20.06.25",
+            "startTime": 1749513600,
+            "days": 10,
+            "reasonWhy": "Летний отдых в горах с трекингом, чистым воздухом и оздоровительными программами. Идеально для активных туристов.",
+            "fastPluses": ["велнес-центр", "гид по трекингу", "экотуризм"],
+            "availableRooms": [
+              {
+                "nameRoom": "Forest View Room",
+                "plusesRoom": ["балкон", "эко-материалы"],
+                "addPrice": 5000
+              },
+              {
+                "nameRoom": "Wellness Suite",
+                "plusesRoom": ["личная сауна", "тренажеры"],
+                "addPrice": 30000
+              }
+            ],
+            "geoPosition": {
+              "near": ["старт пеших маршрутов"],
+              "communication": ["прокат велосипедов"],
+              "distanceToAirPort": ["90 км"]
+            },
+            "beaches": ["озеро в 3 км"],
+            "about": {
+              "inGeneral": ["эко-отель"],
+              "sportAndEntertaiment": ["гольф", "парапланеризм"],
+              "swimmingPool": ["с подогревом"],
+              "spa": ["фитопрограммы"],
+              "services": ["трансфер"],
+              "contacts": ["+4312345678", "www.alpinegrand-summer.com"]
+            },
+            "forKids": ["игровая комната"],
+            "food": {
+              "places": ["фермерский ресторан"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["органические продукты"],
+                "addPrice": 20000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Emerald Bay",
+        "country": "ОАЭ",
+        "image": "/src/assets/images/uae.jpg",
+        "flyOut": "Казань",
+        "rating": 9.5,
+        "tours": [
+          {
+            "id": 119,
+            "name": "Emerald Bay",
+            "country": "ОАЭ",
+            "image": "/src/assets/images/uae.jpg",
+            "flyOut": "Казань",
+            "rating": 9.5,
+            "basePrice": 210000,
+            "time": "5 ноября - 15 ноября 2025",
+            "timeNumber": "05.11.25-15.11.25",
+            "startTime": 1762300800,
+            "days": 10,
+            "reasonWhy": "Фешенебельный отдых в Дубае с панорамным видом на море и город. Идеально для тех, кто любит роскошь и комфорт.",
+            "fastPluses": ["7 ресторанов", "личный пляж", "бутик-отель"],
+            "availableRooms": [
+              {
+                "nameRoom": "Deluxe City View",
+                "plusesRoom": ["вид на Бурдж-Халифу", "кофемашина"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Royal Suite",
+                "plusesRoom": ["личный бассейн", "кабинет", "линкольн в подарок"],
+                "addPrice": 85000
+              }
+            ],
+            "geoPosition": {
+              "near": ["в районе Dubai Marina"],
+              "communication": ["метро в 5 мин"],
+              "distanceToAirPort": ["25 км"]
+            },
+            "beaches": ["белый песок", "полотенца", "охлажденные напитки"],
+            "about": {
+              "inGeneral": ["5+ звезд"],
+              "sportAndEntertaiment": ["гольф", "вертолетные экскурсии"],
+              "swimmingPool": ["инфинити"],
+              "spa": ["золотые маски"],
+              "services": ["персональный шоппер"],
+              "contacts": ["+97112345678", "www.emeraldbay.ae"]
+            },
+            "forKids": ["няня"],
+            "food": {
+              "places": ["мишленовский шеф"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["лобстеры", "премиум алкоголь"],
+                "addPrice": 45000
+              }
+            }
+          },
+          {
+            "id": 120,
+            "name": "Emerald Bay",
+            "country": "ОАЭ",
+            "image": "/src/assets/images/uae.jpg",
+            "flyOut": "Казань",
+            "rating": 9.5,
+            "basePrice": 180000,
+            "time": "15 мая - 25 мая 2025",
+            "timeNumber": "15.05.25-25.05.25",
+            "startTime": 1747353600,
+            "days": 10,
+            "reasonWhy": "Отдых в межсезонье по выгодной цене с возможностью посетить все достопримечательности без жары.",
+            "fastPluses": ["акции на экскурсии", "раннее заселение"],
+            "availableRooms": [
+              {
+                "nameRoom": "Standard Sea View",
+                "plusesRoom": ["балкон", "чайная станция"],
+                "addPrice": 10000
+              },
+              {
+                "nameRoom": "Executive Floor",
+                "plusesRoom": ["отдельный чек-ин", "вечерний коктейль"],
+                "addPrice": 35000
+              }
+            ],
+            "geoPosition": {
+              "near": ["торговый центр рядом"],
+              "communication": ["бесплатный шаттл"],
+              "distanceToAirPort": ["20 км"]
+            },
+            "beaches": ["зонтики", "душ"],
+            "about": {
+              "inGeneral": ["конференц-залы"],
+              "sportAndEntertaiment": ["дайвинг"],
+              "swimmingPool": ["крытый вариант"],
+              "spa": ["талассотерапия"],
+              "services": ["бизнес-центр"],
+              "contacts": ["+97187654321", "www.emeraldbay-summer.ae"]
+            },
+            "forKids": ["детское меню"],
+            "food": {
+              "places": ["фудкорт"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["шведский стол"],
+                "addPrice": 30000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Bamboo Village",
+        "country": "Таиланд",
+        "image": "/src/assets/images/thailand.jpg",
+        "flyOut": "Новосибирск",
+        "rating": 9.0,
+        "tours": [
+          {
+            "id": 121,
+            "name": "Bamboo Village",
+            "country": "Таиланд",
+            "image": "/src/assets/images/thailand.jpg",
+            "flyOut": "Новосибирск",
+            "rating": 9.0,
+            "basePrice": 125000,
+            "time": "20 января - 3 февраля 2025",
+            "timeNumber": "20.01.25-03.02.25",
+            "startTime": 1737417600,
+            "days": 14,
+            "reasonWhy": "Аутентичные бунгало в тропическом саду с прямым выходом к пляжу. Настоящий рай для любителей природы.",
+            "fastPluses": ["экологичный отель", "тайский массаж", "собственный пляж"],
+            "availableRooms": [
+              {
+                "nameRoom": "Garden Bungalow",
+                "plusesRoom": ["соломенная крыша", "гамак", "открытый душ"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Beachfront Villa",
+                "plusesRoom": ["личная терраса", "мини-бар", "джакузи"],
+                "addPrice": 25000
+              }
+            ],
+            "geoPosition": {
+              "near": ["остров Пхукет"],
+              "communication": ["аренда скутеров"],
+              "distanceToAirPort": ["30 км"]
+            },
+            "beaches": ["кокосовые пальмы", "массаж на пляже"],
+            "about": {
+              "inGeneral": ["4 звезды", "только 20 номеров"],
+              "sportAndEntertaiment": ["тайский бокс", "экскурсии"],
+              "swimmingPool": ["с водопадом"],
+              "spa": ["ароматерапия"],
+              "services": ["прачечная"],
+              "contacts": ["+66123456789", "www.bamboovillage.com"]
+            },
+            "forKids": ["детский бассейн"],
+            "food": {
+              "places": ["ресторан морепродуктов"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["свежие фрукты", "коктейли"],
+                "addPrice": 18000
+              }
+            }
+          },
+          {
+            "id": 122,
+            "name": "Bamboo Village",
+            "country": "Таиланд",
+            "image": "/src/assets/images/thailand.jpg",
+            "flyOut": "Новосибирск",
+            "rating": 9.0,
+            "basePrice": 95000,
+            "time": "1 мая - 15 мая 2025",
+            "timeNumber": "01.05.25-15.05.25",
+            "startTime": 1746057600,
+            "days": 14,
+            "reasonWhy": "Сезон дождей - лучшее время для серфинга и самых низких цен. Отель предлагает специальную программу для серферов.",
+            "fastPluses": ["серф-лагерь", "аренда досок", "вечеринки"],
+            "availableRooms": [
+              {
+                "nameRoom": "Surfer's Hut",
+                "plusesRoom": ["полка для доски", "сушилка", "кофе бесплатно"],
+                "addPrice": 5000
+              },
+              {
+                "nameRoom": "Pool Access Room",
+                "plusesRoom": ["ночной купальник", "бар 24/7"],
+                "addPrice": 15000
+              }
+            ],
+            "geoPosition": {
+              "near": ["5 мин до surf spots"],
+              "communication": ["тук-тук"],
+              "distanceToAirPort": ["35 км"]
+            },
+            "beaches": ["волны для серфинга"],
+            "about": {
+              "inGeneral": ["тематические вечеринки"],
+              "sportAndEntertaiment": ["кайтсерфинг"],
+              "swimmingPool": ["с подсветкой"],
+              "spa": ["спортивный массаж"],
+              "services": ["сейф"],
+              "contacts": ["+66987654321", "www.bamboosurf.com"]
+            },
+            "forKids": ["ограничения по возрасту"],
+            "food": {
+              "places": ["beach bar"],
+              "baseFoodCategory": {
+                "pluses": ["только напитки"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["барбекю", "энергетические напитки"],
+                "addPrice": 12000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Aurora Nights",
+        "country": "Финляндия",
+        "image": "/src/assets/images/finland.jpg",
+        "flyOut": "Мурманск",
+        "rating": 9.2,
+        "tours": [
+          {
+            "id": 123,
+            "name": "Aurora Nights",
+            "country": "Финляндия",
+            "image": "/src/assets/images/finland.jpg",
+            "flyOut": "Мурманск",
+            "rating": 9.2,
+            "basePrice": 135000,
+            "time": "10 декабря - 17 декабря 2025",
+            "timeNumber": "10.12.25-17.12.25",
+            "startTime": 1765324800,
+            "days": 7,
+            "reasonWhy": "Уникальная возможность увидеть северное сияние из стеклянных иглу с подогревом. Романтика зимней Лапландии!",
+            "fastPluses": ["охотники за сиянием", "оленьи сафари", "снежный бар"],
+            "availableRooms": [
+              {
+                "nameRoom": "Glass Igloo",
+                "plusesRoom": ["панорамный купол", "термометр", "пуховые одеяла"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Log Cabin",
+                "plusesRoom": ["камин", "сауна", "кухня"],
+                "addPrice": 30000
+              }
+            ],
+            "geoPosition": {
+              "near": ["национальный парк"],
+              "communication": ["снегоходы"],
+              "distanceToAirPort": ["15 км"]
+            },
+            "beaches": ["снежные пляжи"],
+            "about": {
+              "inGeneral": ["арктический курорт"],
+              "sportAndEntertaiment": ["хаски-туры", "подледная рыбалка"],
+              "swimmingPool": ["прорубь"],
+              "spa": ["ледяная купель"],
+              "services": ["прокат снаряжения"],
+              "contacts": ["+358123456789", "www.auroranights.fi"]
+            },
+            "forKids": ["визит к Санте"],
+            "food": {
+              "places": ["лапландская кухня"],
+              "baseFoodCategory": {
+                "pluses": ["полный пансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["оленина", "ягоды"],
+                "addPrice": 20000
+              }
+            }
+          },
+          {
+            "id": 124,
+            "name": "Aurora Nights",
+            "country": "Финляндия",
+            "image": "/src/assets/images/finland.jpg",
+            "flyOut": "Мурманск",
+            "rating": 9.2,
+            "basePrice": 110000,
+            "time": "20 марта - 27 марта 2025",
+            "timeNumber": "20.03.25-27.03.25",
+            "startTime": 1742428800,
+            "days": 7,
+            "reasonWhy": "Весеннее равноденствие - лучшее время для фотосессий с северным сиянием и зимних активностей без экстремальных холодов.",
+            "fastPluses": ["фотограф", "тёплая погода", "длинный день"],
+            "availableRooms": [
+              {
+                "nameRoom": "Aurora Suite",
+                "plusesRoom": ["проектор звезд", "гид"],
+                "addPrice": 15000
+              },
+              {
+                "nameRoom": "Wilderness Chalet",
+                "plusesRoom": ["уединение", "баня"],
+                "addPrice": 25000
+              }
+            ],
+            "geoPosition": {
+              "near": ["озеро"],
+              "communication": ["лыжи"],
+              "distanceToAirPort": ["20 км"]
+            },
+            "beaches": ["ледяные скульптуры"],
+            "about": {
+              "inGeneral": ["эко-лоджи"],
+              "sportAndEntertaiment": ["сноуборд"],
+              "swimmingPool": ["закрытый бассейн"],
+              "spa": ["берёзовые веники"],
+              "services": ["экскурсии"],
+              "contacts": ["+358987654321", "www.auroraspring.fi"]
+            },
+            "forKids": ["снегоступы"],
+            "food": {
+              "places": ["кофе с корицей"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["шведский стол"],
+                "addPrice": 15000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Safari Lodge",
+        "country": "ЮАР",
+        "image": "/src/assets/images/safari.jpg",
+        "flyOut": "Москва",
+        "rating": 9.4,
+        "tours": [
+          {
+            "id": 125,
+            "name": "Safari Lodge",
+            "country": "ЮАР",
+            "image": "/src/assets/images/safari.jpg",
+            "flyOut": "Москва",
+            "rating": 9.4,
+            "basePrice": 230000,
+            "time": "5 августа - 15 августа 2025",
+            "timeNumber": "05.08.25-15.08.25",
+            "startTime": 1751760000,
+            "days": 10,
+            "reasonWhy": "Эксклюзивное сафари в Kruger Park с проживанием в лодже класса люкс. Гарантированные встречи с Большой Пятеркой!",
+            "fastPluses": ["личный рейнджер", "бассейн с видом на водопой", "all inclusive"],
+            "availableRooms": [
+              {
+                "nameRoom": "Tent Suite",
+                "plusesRoom": ["роскошная палатка", "деревянный пол", "ванна"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Treehouse",
+                "plusesRoom": ["на высоте 5 м", "смотровая площадка", "бинокль"],
+                "addPrice": 40000
+              }
+            ],
+            "geoPosition": {
+              "near": ["в заповеднике"],
+              "communication": ["рации"],
+              "distanceToAirPort": ["50 км"]
+            },
+            "beaches": ["река с бегемотами"],
+            "about": {
+              "inGeneral": ["5 звезд", "12 номеров"],
+              "sportAndEntertaiment": ["фотосафари", "ночные выезды"],
+              "swimmingPool": ["с подогревом"],
+              "spa": ["массаж звуками природы"],
+              "services": ["прачечная"],
+              "contacts": ["+27123456789", "www.safarilodge.com"]
+            },
+            "forKids": ["образовательные программы"],
+            "food": {
+              "places": ["boma у костра"],
+              "baseFoodCategory": {
+                "pluses": ["полный пансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["экзотическое мясо", "вино ЮАР"],
+                "addPrice": 30000
+              }
+            }
+          },
+          {
+            "id": 126,
+            "name": "Safari Lodge",
+            "country": "ЮАР",
+            "image": "/src/assets/images/safari.jpg",
+            "flyOut": "Москва",
+            "rating": 9.4,
+            "basePrice": 190000,
+            "time": "15 ноября - 25 ноября 2025",
+            "timeNumber": "15.11.25-25.11.25",
+            "startTime": 1763155200,
+            "days": 10,
+            "reasonWhy": "Сезон дождей - время рождения детенышей и лучших цен. Уникальные кадры животных в зелени.",
+            "fastPluses": ["зеленый сезон", "птицы", "спецпредложения"],
+            "availableRooms": [
+              {
+                "nameRoom": "River View Room",
+                "plusesRoom": ["гидрофон", "фотоальбом"],
+                "addPrice": 10000
+              },
+              {
+                "nameRoom": "Honeymoon Suite",
+                "plusesRoom": ["романтический ужин", "ванна на открытом воздухе"],
+                "addPrice": 35000
+              }
+            ],
+            "geoPosition": {
+              "near": ["водопад"],
+              "communication": ["квадроциклы"],
+              "distanceToAirPort": ["55 км"]
+            },
+            "beaches": ["озеро"],
+            "about": {
+              "inGeneral": ["дождевики в подарок"],
+              "sportAndEntertaiment": ["бёрдвотчинг"],
+              "swimmingPool": ["крытый вариант"],
+              "spa": ["тропический душ"],
+              "services": ["сувенирный магазин"],
+              "contacts": ["+27876543210", "www.safarigreen.com"]
+            },
+            "forKids": ["запрещено до 12 лет"],
+            "food": {
+              "places": ["шеф из Кейптауна"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["фрукты", "местные деликатесы"],
+                "addPrice": 25000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Royal Marbella",
+        "country": "Испания",
+        "image": "/src/assets/images/spain.jpg",
+        "flyOut": "Москва",
+        "rating": 9.0,
+        "tours": [
+          {
+            "id": 125,
+            "name": "Royal Marbella",
+            "country": "Испания",
+            "image": "/src/assets/images/spain.jpg",
+            "flyOut": "Москва",
+            "rating": 9.0,
+            "basePrice": 120000,
+            "time": "10 июля - 24 июля 2025",
+            "timeNumber": "10.07.25-24.07.25",
+            "startTime": 1752182400,
+            "days": 14,
+            "reasonWhy": "Элитный отдых на побережье Коста-дель-Соль с приватным пляжем и панорамными видами на Средиземное море.",
+            "fastPluses": ["VIP-зона", "гастрономический ресторан", "SPA с талассотерапией"],
+            "availableRooms": [
+              {
+                "nameRoom": "Deluxe Sea View",
+                "plusesRoom": ["балкон с видом на море", "кофемашина Nespresso", "халат и тапочки"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Royal Suite",
+                "plusesRoom": ["отдельная гостиная", "личный дворецкий", "бутылка шампанского"],
+                "addPrice": 40000
+              }
+            ],
+            "geoPosition": {
+              "near": ["5 минут до центра Марбельи"],
+              "communication": ["аренда яхт"],
+              "distanceToAirPort": ["20 км от Малаги"]
+            },
+            "beaches": ["золотой песок", "шезлонги с подушками"],
+            "about": {
+              "inGeneral": ["5 звезд", "бутик-отель"],
+              "sportAndEntertaiment": ["гольф-поле", "теннисный корт"],
+              "swimmingPool": ["инфинити с подогревом"],
+              "spa": ["испанские ритуалы"],
+              "services": ["консьерж-сервис"],
+              "contacts": ["+34123456789", "www.royalmarbella.com"]
+            },
+            "forKids": ["няня по запросу"],
+            "food": {
+              "places": ["ресторан с мишленовской звездой"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["премиум алкоголь", "ужин при свечах"],
+                "addPrice": 30000
+              }
+            }
+          },
+          {
+            "id": 126,
+            "name": "Royal Marbella",
+            "country": "Испания",
+            "image": "/src/assets/images/spain.jpg",
+            "flyOut": "Москва",
+            "rating": 9.0,
+            "basePrice": 95000,
+            "time": "5 сентября - 15 сентября 2025",
+            "timeNumber": "05.09.25-15.09.25",
+            "startTime": 1757030400,
+            "days": 10,
+            "reasonWhy": "Бархатный сезон с теплым морем и культурными экскурсиями в Андалусию. Специальные цены на SPA.",
+            "fastPluses": ["винные туры", "сезонные скидки"],
+            "availableRooms": [
+              {
+                "nameRoom": "Standard Garden View",
+                "plusesRoom": ["тихий внутренний двор", "чайная станция"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Penthouse",
+                "plusesRoom": ["терраса 50 м²", "джакузи", "закаты над морем"],
+                "addPrice": 35000
+              }
+            ],
+            "geoPosition": {
+              "near": ["рядом с портом Пуэрто Банус"],
+              "communication": ["бесплатный велосипед"],
+              "distanceToAirPort": ["25 км"]
+            },
+            "beaches": ["лежаки с полотенцами"],
+            "about": {
+              "inGeneral": ["испанская архитектура"],
+              "sportAndEntertaiment": ["экскурсии в Гранаду"],
+              "swimmingPool": ["с гидромассажем"],
+              "spa": ["оливковое обертывание"],
+              "services": ["трансфер"],
+              "contacts": ["+34987654321", "www.royalmarbella-autumn.com"]
+            },
+            "forKids": ["детское меню"],
+            "food": {
+              "places": ["тапас-бар"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["свежие морепродукты"],
+                "addPrice": 20000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Bali Dream",
+        "country": "Индонезия",
+        "image": "/src/assets/images/bali.jpg",
+        "flyOut": "Владивосток",
+        "rating": 9.1,
+        "tours": [
+          {
+            "id": 127,
+            "name": "Bali Dream",
+            "country": "Индонезия",
+            "image": "/src/assets/images/bali.jpg",
+            "flyOut": "Владивосток",
+            "rating": 9.1,
+            "basePrice": 135000,
+            "time": "1 августа - 15 августа 2025",
+            "timeNumber": "01.08.25-15.08.25",
+            "startTime": 1754006400,
+            "days": 14,
+            "reasonWhy": "Рай для ценителей баланса между пляжным отдыхом и духовными практиками. Йога на рассвете и серфинг на закате!",
+            "fastPluses": ["виллы с бассейном", "экотуризм", "рисовые террасы рядом"],
+            "availableRooms": [
+              {
+                "nameRoom": "Jungle Villa",
+                "plusesRoom": ["открытая ванная", "веранда с гамаком", "органик-косметика"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Oceanfront Suite",
+                "plusesRoom": ["прямой выход к пляжу", "медитационная зона", "фрукты ежедневно"],
+                "addPrice": 30000
+              }
+            ],
+            "geoPosition": {
+              "near": ["Убуд, 10 мин до центра"],
+              "communication": ["скутер в подарок"],
+              "distanceToAirPort": ["35 км"]
+            },
+            "beaches": ["черный вулканический песок"],
+            "about": {
+              "inGeneral": ["4 звезды", "балийский стиль"],
+              "sportAndEntertaiment": ["уроки серфинга", "гончарные мастер-классы"],
+              "swimmingPool": ["с природным камнем"],
+              "spa": ["цветочные ванны"],
+              "services": ["айюрведический доктор"],
+              "contacts": ["+62123456789", "www.balidream.com"]
+            },
+            "forKids": ["запрещено до 16 лет"],
+            "food": {
+              "places": ["веган-кафе"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["смузи-бар", "органические продукты"],
+                "addPrice": 25000
+              }
+            }
+          },
+          {
+            "id": 128,
+            "name": "Bali Dream",
+            "country": "Индонезия",
+            "image": "/src/assets/images/bali.jpg",
+            "flyOut": "Владивосток",
+            "rating": 9.1,
+            "basePrice": 110000,
+            "time": "5 декабря - 20 декабря 2025",
+            "timeNumber": "05.12.25-20.12.25",
+            "startTime": 1764892800,
+            "days": 15,
+            "reasonWhy": "Сезон дождей — время для глубокого релакса и лучших цен на SPA. Тропические ливни лишь добавляют атмосферности.",
+            "fastPluses": ["дождевики в подарок", "йога-ретрит", "скидки 30% на SPA"],
+            "availableRooms": [
+              {
+                "nameRoom": "Garden Bungalow",
+                "plusesRoom": ["дождевой душ", "москитные сетки", "чайный набор"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Honeymoon Pool Villa",
+                "plusesRoom": ["личный бассейн", "романтический декор", "букет цветов"],
+                "addPrice": 40000
+              }
+            ],
+            "geoPosition": {
+              "near": ["15 мин до водопада"],
+              "communication": ["бесплатный зонт"],
+              "distanceToAirPort": ["40 км"]
+            },
+            "beaches": ["волны для серфинга"],
+            "about": {
+              "inGeneral": ["зеленая зона"],
+              "sportAndEntertaiment": ["медитации", "батик-воркшопы"],
+              "swimmingPool": ["с подогревом"],
+              "spa": ["ароматерапия"],
+              "services": ["прачечная"],
+              "contacts": ["+62876543210", "www.balidream-green.com"]
+            },
+            "forKids": ["только взрослые"],
+            "food": {
+              "places": ["ресторан на рисовом поле"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["фреш-соки", "морепродукты"],
+                "addPrice": 20000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Nordic Fjord",
+        "country": "Норвегия",
+        "image": "/src/assets/images/norway.jpg",
+        "flyOut": "Санкт-Петербург",
+        "rating": 9.3,
+        "tours": [
+          {
+            "id": 129,
+            "name": "Nordic Fjord",
+            "country": "Норвегия",
+            "image": "/src/assets/images/norway.jpg",
+            "flyOut": "Санкт-Петербург",
+            "rating": 9.3,
+            "basePrice": 180000,
+            "time": "10 июня - 20 июня 2025",
+            "timeNumber": "10.06.25-20.06.25",
+            "startTime": 1749513600,
+            "days": 10,
+            "reasonWhy": "Фьорды в разгар белых ночей! Круизы среди ледников, трекинг и уникальные фотосессии в полуночном солнце.",
+            "fastPluses": ["экскурсия к Тролльтунге", "лодка в подарок", "экологичный отель"],
+            "availableRooms": [
+              {
+                "nameRoom": "Fjord View Room",
+                "plusesRoom": ["панорамные окна", "терраса", "бинокль"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Glass Cabin",
+                "plusesRoom": ["потолок для наблюдения за северным сиянием (зимой)", "камин", "гид"],
+                "addPrice": 50000
+              }
+            ],
+            "geoPosition": {
+              "near": ["Берген, на берегу фьорда"],
+              "communication": ["аренда лодок"],
+              "distanceToAirPort": ["15 км"]
+            },
+            "beaches": ["деревянный пирс"],
+            "about": {
+              "inGeneral": ["5 звезд", "дизайн в стиле хюгге"],
+              "sportAndEntertaiment": ["каякинг", "рыбалка"],
+              "swimmingPool": ["с подогревом"],
+              "spa": ["с травяными настоями"],
+              "services": ["прокат фотоаппаратов"],
+              "contacts": ["+4712345678", "www.nordicfjord.com"]
+            },
+            "forKids": ["игровая комната"],
+            "food": {
+              "places": ["ресторан с локальной кухней"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["лосось и морепродукты", "норвежские десерты"],
+                "addPrice": 30000
+              }
+            }
+          },
+          {
+            "id": 130,
+            "name": "Nordic Fjord",
+            "country": "Норвегия",
+            "image": "/src/assets/images/norway.jpg",
+            "flyOut": "Санкт-Петербург",
+            "rating": 9.3,
+            "basePrice": 220000,
+            "time": "15 января - 25 января 2025",
+            "timeNumber": "15.01.25-25.01.25",
+            "startTime": 1736985600,
+            "days": 10,
+            "reasonWhy": "Зимняя сказка с охотой за северным сиянием, собачьими упряжками и уютом норвежских каминов.",
+            "fastPluses": ["сафари на хаски", "ледяной бар", "термоодежда в подарок"],
+            "availableRooms": [
+              {
+                "nameRoom": "Aurora Suite",
+                "plusesRoom": ["будильник для сияния", "теплые полы", "горячий шоколад"],
+                "addPrice": 20000
+              },
+              {
+                "nameRoom": "Snow Lodge",
+                "plusesRoom": ["стены изо льда", "меховая подстилка", "личный гид"],
+                "addPrice": 60000
+              }
+            ],
+            "geoPosition": {
+              "near": ["Лофотенские острова"],
+              "communication": ["снегоходы"],
+              "distanceToAirPort": ["10 км"]
+            },
+            "beaches": ["снежные дюны"],
+            "about": {
+              "inGeneral": ["арктический дизайн"],
+              "sportAndEntertaiment": ["сноуборд", "подледная рыбалка"],
+              "swimmingPool": ["прорубь"],
+              "spa": ["сауна с видом на фьорд"],
+              "services": ["сушка одежды"],
+              "contacts": ["+4787654321", "www.nordicfjord-winter.com"]
+            },
+            "forKids": ["иглу для детей"],
+            "food": {
+              "places": ["ресторан в иглу"],
+              "baseFoodCategory": {
+                "pluses": ["полный пансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["оленина", "глинтвейн"],
+                "addPrice": 40000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Caribbean Pearl",
+        "country": "Доминикана",
+        "image": "/src/assets/images/dominican.jpg",
+        "flyOut": "Москва",
+        "rating": 9.2,
+        "tours": [
+          {
+            "id": 131,
+            "name": "Caribbean Pearl",
+            "country": "Доминикана",
+            "image": "/src/assets/images/dominican.jpg",
+            "flyOut": "Москва",
+            "rating": 9.2,
+            "basePrice": 150000,
+            "time": "5 апреля - 19 апреля 2025",
+            "timeNumber": "05.04.25-19.04.25",
+            "startTime": 1743811200,
+            "days": 14,
+            "reasonWhy": "Райские пляжи с белым песком, кокосовые пальмы и все включено премиум-класса. Идеально для свадебного путешествия!",
+            "fastPluses": ["пляж Баваро", "коктейли в ананасах", "меренге-вечеринки"],
+            "availableRooms": [
+              {
+                "nameRoom": "Garden Bungalow",
+                "plusesRoom": ["тропический сад", "гамак", "фрукты"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Overwater Villa",
+                "plusesRoom": ["прозрачный пол", "лестница в море", "шампанское"],
+                "addPrice": 60000
+              }
+            ],
+            "geoPosition": {
+              "near": ["Пунта-Кана, 1-я линия"],
+              "communication": ["такси"],
+              "distanceToAirPort": ["10 км"]
+            },
+            "beaches": ["бирюзовая вода", "коралловый риф"],
+            "about": {
+              "inGeneral": ["5 звезд", "все включено"],
+              "sportAndEntertaiment": ["дайвинг", "катамараны"],
+              "swimmingPool": ["с водопадом"],
+              "spa": ["шоколадное обертывание"],
+              "services": ["Wi-Fi"],
+              "contacts": ["+18091234567", "www.caribbeanpearl.com"]
+            },
+            "forKids": ["аквапарк"],
+            "food": {
+              "places": ["10 ресторанов"],
+              "baseFoodCategory": {
+                "pluses": ["все включено"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["лобстеры", "импортный алкоголь"],
+                "addPrice": 25000
+              }
+            }
+          },
+          {
+            "id": 132,
+            "name": "Caribbean Pearl",
+            "country": "Доминикана",
+            "image": "/src/assets/images/dominican.jpg",
+            "flyOut": "Москва",
+            "rating": 9.2,
+            "basePrice": 130000,
+            "time": "1 ноября - 14 ноября 2025",
+            "timeNumber": "01.11.25-14.11.25",
+            "startTime": 1761955200,
+            "days": 13,
+            "reasonWhy": "Сезон ураганов заканчивается — цены падают, а погода идеальна для экскурсий к водопадам и плантациям какао.",
+            "fastPluses": ["экскурсия в Саману", "зеленый сезон", "релакс без толп"],
+            "availableRooms": [
+              {
+                "nameRoom": "Standard Room",
+                "plusesRoom": ["вид на сад", "кондиционер"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Honeymoon Suite",
+                "plusesRoom": ["джакузи на балконе", "ужин на пляже"],
+                "addPrice": 35000
+              }
+            ],
+            "geoPosition": {
+              "near": ["15 км от Ла-Романы"],
+              "communication": ["аренда авто"],
+              "distanceToAirPort": ["20 км"]
+            },
+            "beaches": ["тихий залив"],
+            "about": {
+              "inGeneral": ["4 звезды"],
+              "sportAndEntertaiment": ["гольф"],
+              "swimmingPool": ["с подогревом"],
+              "spa": ["массаж с ромом"],
+              "services": ["обмен валюты"],
+              "contacts": ["+18098765432", "www.caribbeanpearl-autumn.com"]
+            },
+            "forKids": ["мини-клуб"],
+            "food": {
+              "places": ["карибская кухня"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["свежие соки", "морепродукты"],
+                "addPrice": 20000
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Tokyo Skyline",
+        "country": "Япония",
+        "image": "/src/assets/images/japan.jpg",
+        "flyOut": "Владивосток",
+        "rating": 9.4,
+        "tours": [
+          {
+            "id": 133,
+            "name": "Tokyo Skyline",
+            "country": "Япония",
+            "image": "/src/assets/images/japan.jpg",
+            "flyOut": "Владивосток",
+            "rating": 9.4,
+            "basePrice": 170000,
+            "time": "20 марта - 3 апреля 2025",
+            "timeNumber": "20.03.25-03.04.25",
+            "startTime": 1742428800,
+            "days": 14,
+            "reasonWhy": "Сакура в самом разгаре! Фотосессии в парках, экскурсии в Киото и современные технологии Токио.",
+            "fastPluses": ["вид на Фудзи", "онсэн на крыше", "билет на синкансэн"],
+            "availableRooms": [
+              {
+                "nameRoom": "City View Room",
+                "plusesRoom": ["панорама Токио", "умный туалет", "чайный набор"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Sakura Suite",
+                "plusesRoom": ["балкон с цветущей сакурой", "кимоно в подарок", "экскурсия с гидом"],
+                "addPrice": 45000
+              }
+            ],
+            "geoPosition": {
+              "near": ["район Синдзюку"],
+              "communication": ["метро в 2 мин"],
+              "distanceToAirPort": ["60 км от Нариты"]
+            },
+            "beaches": ["искусственный пляж Odaiba"],
+            "about": {
+              "inGeneral": ["5 звезд", "небоскреб"],
+              "sportAndEntertaiment": ["караоке", "экскурсии"],
+              "swimmingPool": ["крытый"],
+              "spa": ["онсэн"],
+              "services": ["транслятор"],
+              "contacts": ["+81312345678", "www.tokyoskyline.com"]
+            },
+            "forKids": ["игровая зона"],
+            "food": {
+              "places": ["суши-бар"],
+              "baseFoodCategory": {
+                "pluses": ["завтрак"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["дегустация саке", "ужин с самураем"],
+                "addPrice": 35000
+              }
+            }
+          },
+          {
+            "id": 134,
+            "name": "Tokyo Skyline",
+            "country": "Япония",
+            "image": "/src/assets/images/japan.jpg",
+            "flyOut": "Владивосток",
+            "rating": 9.4,
+            "basePrice": 160000,
+            "time": "10 ноября - 24 ноября 2025",
+            "timeNumber": "10.11.25-24.11.25",
+            "startTime": 1762723200,
+            "days": 14,
+            "reasonWhy": "Красные клены Момидзи и гастрономические туры по осеннему Токио. Специальное меню из сезонных продуктов.",
+            "fastPluses": ["тур на рыбный рынок", "фото в кимоно", "скидки на электронику"],
+            "availableRooms": [
+              {
+                "nameRoom": "Standard Room",
+                "plusesRoom": ["компактный дизайн", "робот-горничная"],
+                "addPrice": 0
+              },
+              {
+                "nameRoom": "Traditional Ryokan Room",
+                "plusesRoom": ["татами", "частный онсэн", "чайная церемония"],
+                "addPrice": 40000
+              }
+            ],
+            "geoPosition": {
+              "near": ["парк Ёёги"],
+              "communication": ["велосипед"],
+              "distanceToAirPort": ["55 км"]
+            },
+            "beaches": ["закрытый пляж"],
+            "about": {
+              "inGeneral": ["смесь традиций и технологий"],
+              "sportAndEntertaiment": ["икебана", "аниме-туры"],
+              "swimmingPool": ["с видом на город"],
+              "spa": ["асфальтовые ванны"],
+              "services": ["доставка еды"],
+              "contacts": ["+81387654321", "www.tokyoskyline-autumn.com"]
+            },
+            "forKids": ["музей Ghibli рядом"],
+            "food": {
+              "places": ["рамен-бар"],
+              "baseFoodCategory": {
+                "pluses": ["полупансион"]
+              },
+              "foodAllInClusive": {
+                "pluses": ["устрицы", "матча-десерты"],
+                "addPrice": 30000
+              }
+            }
+          }
+        ]
+      }
+    
+   
+  ]}
+    

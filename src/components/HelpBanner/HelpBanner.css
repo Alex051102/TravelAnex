@@ -1,0 +1,147 @@
+.help-banner{
+    background-position: center;
+    background-size: cover;
+}
+.help-banner__container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+.bottom.help-banner__container{
+    padding-bottom: 30px;
+}
+.bottom{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.help-banner__main{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
+    border-radius: 20px;
+}
+.bottom .help-banner__main{
+    grid-row: 4;
+}
+.help-banner__main-container{
+   display: grid;
+   grid-template-columns: 1fr 0.7fr 0.8fr 0.5fr;
+    padding: 45px;
+   
+}
+
+.help-banner__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+.help-banner__input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.help-banner__input:focus{
+    outline: none;
+}
+.help-banner__button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@media(width<1500px){
+    .help-banner__container{
+       
+        grid-template-columns: 1fr 6fr 1fr;
+      
+    }
+}
+@media(width<1300px){
+    .help-banner__container{
+       
+        grid-template-columns: 1fr 14fr 1fr;
+      
+    }
+}
+@media(width<1150px){
+    .help-banner__container{
+       
+        grid-template-columns: 1fr 14fr 1fr;
+      
+    }
+    .help-banner__main-container{
+        
+         padding: 45px 20px;
+        
+     }
+}
+@media(width<1050px){
+    .help-banner__container{
+       
+        grid-template-columns: 0.1fr 17fr 0.1fr;
+      
+    }
+
+    .help-banner__main-container{
+       
+        grid-template-columns: 1fr 0.7fr 0.8fr 0.5fr;
+        
+        
+     }
+}
+@media(width<950px){
+    .help-banner__question{
+        font-size: 20px;
+    }
+    .help-banner__action{
+        font-size: 14px;
+    }
+    .help-banner__main-container{
+        
+        padding: 35px 10px;
+       
+    }
+}
+@media(width<820px){
+    .help-banner__container{
+       
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1fr 11fr 1fr;
+        padding-bottom: 0px;
+    }
+    .bottom.help-banner__container{
+        padding:30px 0;
+    }
+    .help-banner__main{
+        grid-column: 2;
+        grid-row: 2;
+        display: grid;
+       grid-template-columns: 1fr 3fr 1fr;
+        
+    }
+    
+    .help-banner__main-container{
+        grid-column: 2;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       align-items: center;
+       text-align: center;
+    }
+    .help-banner__input{
+        width: 40vw;
+    }
+}
+@media(width<500px){
+    .help-banner__container{
+       
+        grid-template-columns: 1fr 12fr 1fr;
+       
+    }
+    .help-banner__main{
+        grid-template-columns:1fr 9fr 1fr
+    }
+    .help-banner__input{
+        width: 50vw;
+    }
+}

@@ -1,0 +1,179 @@
+
+.popular-hotel__item-outer{
+    display: flex;
+    height: 22vw;
+    align-items: center;
+}
+.popular-hotel__item{
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    
+}
+.slick-current .popular-hotel__item{
+    height: 100%;
+}
+
+
+
+.popular-hotel__item-container{
+   
+   height: 90%;
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 30px;
+   
+}
+.hotel-max-size{
+    width: 480px;
+   height: 340px;
+    padding: 30px;
+}
+.popular-hotel__item-rating{
+    display:flex;
+    justify-content: end;
+    grid-column: 3;
+}
+.popular-hotel__item-rating-star-outer{
+    display: flex;
+    align-items: start;
+}
+.popular-hotel__item-rating-number{
+    font-size: 40px;
+    color: white;
+}
+.popular-hotel__item-name{
+    color: white;
+}
+.popular-hotel__item-show-more{
+    display: flex;
+    gap: 10px;
+}
+.popular-hotel__item-show-more-text{
+    color: white;
+}
+.popular-hotel__item-info{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 4;
+}
+
+
+
+@media(width<1261px){
+    .popular-hotel__item-name{
+        font-size: 26px;
+    }
+    .popular-hotel__item-show-more-text{
+        font-size: 14px;
+    }
+    .popular-hotel__item-show-more-image{
+        width: 36px;
+        height: 14px;
+    }
+    .popular-hotel__item-rating-number{
+        font-size: 36px;
+    }
+}
+
+@media(width<1095px){
+    .popular-hotel__item-name{
+        font-size: 20px;
+    }
+    .popular-hotel__item-show-more-text{
+        font-size: 12px;
+    }
+    .popular-hotel__item-show-more-image{
+        width: 30px;
+        height: 11px;
+    }
+    .popular-hotel__item-rating-number{
+        font-size: 28px;
+    }
+    .popular-hotel__item-rating-star{
+        width: 16px;
+        height: 16px;
+    }
+}
+@media(width<922px){
+    .popular-hotel__item{
+       
+        width: 96%;
+       
+        
+    }
+    .popular-hotel__item-name{
+        font-size: 17px;
+    }
+    .popular-hotel__item-show-more-text{
+        font-size: 11px;
+    }
+    .popular-hotel__item-show-more-image{
+        width: 26px;
+        height: 10px;
+    }
+    .popular-hotel__item-rating-number{
+        font-size: 24px;
+    }
+    .popular-hotel__item-rating-star{
+        width: 14px;
+        height: 14px;
+    }
+}
+@media(width<800px){
+    
+    .popular-hotel__item-outer{
+       
+        height: 42vw;
+     
+    }
+
+    .popular-hotel__item-name{
+        font-size: 32px;
+    }
+    .popular-hotel__item-show-more-text{
+        font-size: 16px;
+    }
+    .popular-hotel__item-show-more-image{
+        width: 43px;
+        height: 18px;
+    }
+    .popular-hotel__item-rating-number{
+        font-size: 40px;
+    }
+    .popular-hotel__item-rating-star{
+        width: 21px;
+        height: 21px;
+    }
+}
+
+@media(width<800px){
+    .popular-hotel__item-outer{
+       
+        height: 52vw;
+     
+    }
+
+}
+
+
+@media(width<500px){
+    .popular-hotel__item-name{
+        font-size: 20px;
+    }
+    .popular-hotel__item-show-more-text{
+        font-size: 12px;
+    }
+    .popular-hotel__item-show-more-image{
+        width: 30px;
+        height: 12px;
+    }
+    .popular-hotel__item-rating-number{
+        font-size: 30px;
+    }
+    .popular-hotel__item-rating-star{
+        width: 17px;
+        height: 17px;
+    }
+}
